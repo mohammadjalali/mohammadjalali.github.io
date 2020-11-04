@@ -1,0 +1,76 @@
+body{
+    background-color: #292a2d;
+    color: #a9a9b3;
+}
+
+.mycursor{
+    font-family: monospace;
+    font-size: 0.75em;
+    color: #a9a9b3;
+}
+
+.mycursor:after {
+	content:"█";
+	opacity: 0;
+	animation: cursor 1s infinite;
+}
+
+@keyframes cursor {
+	0% {
+		opacity: 0;
+	}
+	40% {
+		opacity: 0;
+	}
+	50% {
+		opacity: 1;
+	}
+	90% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 0;
+	}
+}
+
+.navbar-nav{
+    margin-left: 25%;
+}
+
+.navbar-dark{
+    background-color: #252627 !important;
+    
+}
+
+.navbar-dark .navbar-nav 
+.active>.nav-link, .navbar-dark 
+.navbar-nav .nav-link.active, 
+.navbar-dark .navbar-nav 
+.nav-link.show, .navbar-dark 
+.navbar-nav .show>.nav-link{
+    color: #a9a9b3;
+}
+
+.profile{
+    margin-top: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.5em;
+}
+.profile-image{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+a{
+    margin: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    color: white;
+}
