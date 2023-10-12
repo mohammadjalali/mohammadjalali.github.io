@@ -1,14 +1,11 @@
 ---
 weight: 4
 title: "Hello World"
-date: 2023-13-10
+date: 2023-10-13T01:20:39+03:30
 draft: false
 author: "MohammadHosein"
 description: ""
 images: []
-resources:
-  - name: "featured-image"
-    src: "featured-image.png"
 ---
 
 **Hello World**
