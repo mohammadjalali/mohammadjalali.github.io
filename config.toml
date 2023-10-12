@@ -49,6 +49,13 @@ post = ""
 name = "Categories"
 url = "/categories/"
 title = ""
+[[menu.main]]
+weight = 4
+identifier = "CV"
+name = "CV"
+url = "blob:https://github.com/9378d175-6ee6-4715-a35d-0373da59b44e"
+
+
 [params]
 defaultTheme = "auto"
 gitRepo = "https://github.com/dillonzq/LoveIt"
@@ -62,6 +69,7 @@ images = ["/assets/images/avatar.jpg"]
 [params.header]
 desktopMode = "fixed"
 mobileMode = "auto"
+
 [params.header.title]
 name = "MohammadHosein Jalali"
 pre = ""
@@ -109,7 +117,6 @@ absoluteURL = false
 index = ""
 appID = ""
 searchKey = ""
-
 
 [params.home]
 rss = 10
@@ -272,25 +279,19 @@ yandex = ""
 pinterest = ""
 baidu = ""
 
-
 [params.seo]
 image = ""
 thumbnailUrl = "/images/avatar.jpg"
-
 
 [params.analytics]
 enable = false
 
 [params.analytics.google]
 id = ""
-
-
 anonymizeIP = true
 
 [params.analytics.fathom]
 id = ""
-
-
 server = ""
 
 [params.analytics.plausible]
@@ -299,44 +300,30 @@ dataDomain = ""
 [params.analytics.yandexMetrica]
 id = ""
 
-
 [params.cookieconsent]
 enable = false
-
 
 [params.cookieconsent.content]
 message = ""
 dismiss = ""
 link = ""
 
-
 [params.cdn]
-
-
 data = "jsdelivr.yml"
 
-
 [params.compatibility]
-
-
 polyfill = false
-
-
 objectFit = false
 
 
 [markup]
-
 
 [markup.highlight]
 codeFences = true
 guessSyntax = true
 lineNos = true
 lineNumbersInTable = true
-
-
 noClasses = false
-
 
 [markup.goldmark]
 [markup.goldmark.extensions]
@@ -347,33 +334,24 @@ strikethrough = true
 table = true
 taskList = true
 typographer = true
+
 [markup.goldmark.renderer]
-
-
 unsafe = true
-
 
 [markup.tableOfContents]
 startLevel = 2
 endLevel = 6
-
 
 [sitemap]
 changefreq = "weekly"
 filename = "sitemap.xml"
 priority = 0.5
 
-
 [Permalinks]
-
 posts = ":filename"
 
-
 [privacy]
-
-
 [privacy.googleAnalytics]
-
 [privacy.twitter]
 enableDNT = true
 [privacy.youtube]
