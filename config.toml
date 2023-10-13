@@ -139,6 +139,7 @@ paginate = 6
 GitHub = "mohammadjalali"
 Linkedin = "1mohammadjalali"
 Email = "mjalali1378@gmail.com"
+Stackoverflow = "10215875"
 
 [params.page]
 hiddenFromHomePage = false
@@ -463,5 +464,7 @@ social = true
 disclaimer = ""
 [languages.en.params.social]
 GitHub = "mohammadjalali"
+Linkedin = "1mohammadjalali"
+Stackoverflow = "10215875"
 Email = "mjalali1378@gmail.com"
 RSS = true
