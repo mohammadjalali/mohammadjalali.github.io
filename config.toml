@@ -52,8 +52,11 @@ title = ""
 [[menu.main]]
 weight = 4
 identifier = "CV"
+pre = ""
+post = ""
 name = "CV"
-url = "blob:https://github.com/9378d175-6ee6-4715-a35d-0373da59b44e"
+url = "https://github.com/mohammadjalali/cv/blob/main/MohammadJalaliJobCV.pdf"
+title = ""
 
 
 [params]
@@ -419,6 +422,14 @@ url = "/about/"
 title = ""
 [[languages.en.menu.main]]
 weight = 5
+identifier = "CV"
+pre = ""
+post = ""
+name = "CV"
+url = "https://github.com/mohammadjalali/cv/blob/main/MohammadJalaliJobCV.pdf"
+title = "CV"
+[[languages.en.menu.main]]
+weight = 6
 identifier = "github"
 pre = "<i class='fab fa-github fa-fw' aria-hidden='true'></i>"
 post = ""
